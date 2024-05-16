@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import BubbleSortComponent from './component/BubbleSortComponent'
 import InefficientSearchComponent from './component/BinarySearch'
+import QuickSortComponent from './component/QuickSortComponent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <InefficientSearchComponent/>
+      <QuickSortComponent/>
     </>
   )
 }
